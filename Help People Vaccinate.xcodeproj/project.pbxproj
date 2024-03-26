@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690DABAC2BB30EE10004147A /* Help_People_VaccinateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DABAB2BB30EE10004147A /* Help_People_VaccinateApp.swift */; };
+		690DABAE2BB30EE10004147A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DABAD2BB30EE10004147A /* ContentView.swift */; };
+		690DABB02BB30EE20004147A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690DABAF2BB30EE20004147A /* Assets.xcassets */; };
+		690DABB32BB30EE20004147A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690DABB22BB30EE20004147A /* Preview Assets.xcassets */; };
+		690DABB52BB30EE20004147A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DABB42BB30EE20004147A /* Persistence.swift */; };
+		690DABB82BB30EE20004147A /* Help_People_Vaccinate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 690DABB62BB30EE20004147A /* Help_People_Vaccinate.xcdatamodeld */; };
+		690DABC32BB30EE20004147A /* Help_People_VaccinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DABC22BB30EE20004147A /* Help_People_VaccinateTests.swift */; };
+		690DABCD2BB30EE20004147A /* Help_People_VaccinateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DABCC2BB30EE20004147A /* Help_People_VaccinateUITests.swift */; };
+		690DABCF2BB30EE20004147A /* Help_People_VaccinateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DABCE2BB30EE20004147A /* Help_People_VaccinateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		690DABBF2BB30EE20004147A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 690DABA02BB30EE10004147A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 690DABA72BB30EE10004147A;
+			remoteInfo = "Help People Vaccinate";
+		};
+		690DABC92BB30EE20004147A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 690DABA02BB30EE10004147A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 690DABA72BB30EE10004147A;
+			remoteInfo = "Help People Vaccinate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		690DABA82BB30EE10004147A /* Help People Vaccinate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help People Vaccinate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		690DABAB2BB30EE10004147A /* Help_People_VaccinateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_People_VaccinateApp.swift; sourceTree = "<group>"; };
+		690DABAD2BB30EE10004147A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		690DABAF2BB30EE20004147A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		690DABB22BB30EE20004147A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		690DABB42BB30EE20004147A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		690DABB72BB30EE20004147A /* Help_People_Vaccinate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Help_People_Vaccinate.xcdatamodel; sourceTree = "<group>"; };
+		690DABB92BB30EE20004147A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690DABBE2BB30EE20004147A /* Help People VaccinateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Help People VaccinateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		690DABC22BB30EE20004147A /* Help_People_VaccinateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_People_VaccinateTests.swift; sourceTree = "<group>"; };
+		690DABC82BB30EE20004147A /* Help People VaccinateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Help People VaccinateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		690DABCC2BB30EE20004147A /* Help_People_VaccinateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_People_VaccinateUITests.swift; sourceTree = "<group>"; };
+		690DABCE2BB30EE20004147A /* Help_People_VaccinateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_People_VaccinateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		690DABA52BB30EE10004147A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690DABBB2BB30EE20004147A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690DABC52BB30EE20004147A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		690DAB9F2BB30EE10004147A = {
+			isa = PBXGroup;
+			children = (
+				690DABAA2BB30EE10004147A /* Help People Vaccinate */,
+				690DABC12BB30EE20004147A /* Help People VaccinateTests */,
+				690DABCB2BB30EE20004147A /* Help People VaccinateUITests */,
+				690DABA92BB30EE10004147A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		690DABA92BB30EE10004147A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				690DABA82BB30EE10004147A /* Help People Vaccinate.app */,
+				690DABBE2BB30EE20004147A /* Help People VaccinateTests.xctest */,
+				690DABC82BB30EE20004147A /* Help People VaccinateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		690DABAA2BB30EE10004147A /* Help People Vaccinate */ = {
+			isa = PBXGroup;
+			children = (
+				690DABAB2BB30EE10004147A /* Help_People_VaccinateApp.swift */,
+				690DABAD2BB30EE10004147A /* ContentView.swift */,
+				690DABAF2BB30EE20004147A /* Assets.xcassets */,
+				690DABB42BB30EE20004147A /* Persistence.swift */,
+				690DABB92BB30EE20004147A /* Info.plist */,
+				690DABB62BB30EE20004147A /* Help_People_Vaccinate.xcdatamodeld */,
+				690DABB12BB30EE20004147A /* Preview Content */,
+			);
+			path = "Help People Vaccinate";
+			sourceTree = "<group>";
+		};
+		690DABB12BB30EE20004147A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				690DABB22BB30EE20004147A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		690DABC12BB30EE20004147A /* Help People VaccinateTests */ = {
+			isa = PBXGroup;
+			children = (
+				690DABC22BB30EE20004147A /* Help_People_VaccinateTests.swift */,
+			);
+			path = "Help People VaccinateTests";
+			sourceTree = "<group>";
+		};
+		690DABCB2BB30EE20004147A /* Help People VaccinateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				690DABCC2BB30EE20004147A /* Help_People_VaccinateUITests.swift */,
+				690DABCE2BB30EE20004147A /* Help_People_VaccinateUITestsLaunchTests.swift */,
+			);
+			path = "Help People VaccinateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		690DABA72BB30EE10004147A /* Help People Vaccinate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 690DABD22BB30EE20004147A /* Build configuration list for PBXNativeTarget "Help People Vaccinate" */;
+			buildPhases = (
+				690DABA42BB30EE10004147A /* Sources */,
+				690DABA52BB30EE10004147A /* Frameworks */,
+				690DABA62BB30EE10004147A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Help People Vaccinate";
+			productName = "Help People Vaccinate";
+			productReference = 690DABA82BB30EE10004147A /* Help People Vaccinate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		690DABBD2BB30EE20004147A /* Help People VaccinateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 690DABD52BB30EE20004147A /* Build configuration list for PBXNativeTarget "Help People VaccinateTests" */;
+			buildPhases = (
+				690DABBA2BB30EE20004147A /* Sources */,
+				690DABBB2BB30EE20004147A /* Frameworks */,
+				690DABBC2BB30EE20004147A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				690DABC02BB30EE20004147A /* PBXTargetDependency */,
+			);
+			name = "Help People VaccinateTests";
+			productName = "Help People VaccinateTests";
+			productReference = 690DABBE2BB30EE20004147A /* Help People VaccinateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		690DABC72BB30EE20004147A /* Help People VaccinateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 690DABD82BB30EE20004147A /* Build configuration list for PBXNativeTarget "Help People VaccinateUITests" */;
+			buildPhases = (
+				690DABC42BB30EE20004147A /* Sources */,
+				690DABC52BB30EE20004147A /* Frameworks */,
+				690DABC62BB30EE20004147A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				690DABCA2BB30EE20004147A /* PBXTargetDependency */,
+			);
+			name = "Help People VaccinateUITests";
+			productName = "Help People VaccinateUITests";
+			productReference = 690DABC82BB30EE20004147A /* Help People VaccinateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		690DABA02BB30EE10004147A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					690DABA72BB30EE10004147A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					690DABBD2BB30EE20004147A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 690DABA72BB30EE10004147A;
+					};
+					690DABC72BB30EE20004147A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 690DABA72BB30EE10004147A;
+					};
+				};
+			};
+			buildConfigurationList = 690DABA32BB30EE10004147A /* Build configuration list for PBXProject "Help People Vaccinate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 690DAB9F2BB30EE10004147A;
+			productRefGroup = 690DABA92BB30EE10004147A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				690DABA72BB30EE10004147A /* Help People Vaccinate */,
+				690DABBD2BB30EE20004147A /* Help People VaccinateTests */,
+				690DABC72BB30EE20004147A /* Help People VaccinateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		690DABA62BB30EE10004147A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690DABB32BB30EE20004147A /* Preview Assets.xcassets in Resources */,
+				690DABB02BB30EE20004147A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690DABBC2BB30EE20004147A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690DABC62BB30EE20004147A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		690DABA42BB30EE10004147A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690DABB82BB30EE20004147A /* Help_People_Vaccinate.xcdatamodeld in Sources */,
+				690DABB52BB30EE20004147A /* Persistence.swift in Sources */,
+				690DABAE2BB30EE10004147A /* ContentView.swift in Sources */,
+				690DABAC2BB30EE10004147A /* Help_People_VaccinateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690DABBA2BB30EE20004147A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690DABC32BB30EE20004147A /* Help_People_VaccinateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690DABC42BB30EE20004147A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690DABCD2BB30EE20004147A /* Help_People_VaccinateUITests.swift in Sources */,
+				690DABCF2BB30EE20004147A /* Help_People_VaccinateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		690DABC02BB30EE20004147A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 690DABA72BB30EE10004147A /* Help People Vaccinate */;
+			targetProxy = 690DABBF2BB30EE20004147A /* PBXContainerItemProxy */;
+		};
+		690DABCA2BB30EE20004147A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 690DABA72BB30EE10004147A /* Help People Vaccinate */;
+			targetProxy = 690DABC92BB30EE20004147A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		690DABD02BB30EE20004147A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		690DABD12BB30EE20004147A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		690DABD32BB30EE20004147A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Help People Vaccinate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipek.Help-People-Vaccinate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		690DABD42BB30EE20004147A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Help People Vaccinate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipek.Help-People-Vaccinate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		690DABD62BB30EE20004147A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipek.Help-People-VaccinateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Help People Vaccinate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Help People Vaccinate";
+			};
+			name = Debug;
+		};
+		690DABD72BB30EE20004147A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipek.Help-People-VaccinateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Help People Vaccinate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Help People Vaccinate";
+			};
+			name = Release;
+		};
+		690DABD92BB30EE20004147A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipek.Help-People-VaccinateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Help People Vaccinate";
+			};
+			name = Debug;
+		};
+		690DABDA2BB30EE20004147A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipek.Help-People-VaccinateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Help People Vaccinate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		690DABA32BB30EE10004147A /* Build configuration list for PBXProject "Help People Vaccinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690DABD02BB30EE20004147A /* Debug */,
+				690DABD12BB30EE20004147A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690DABD22BB30EE20004147A /* Build configuration list for PBXNativeTarget "Help People Vaccinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690DABD32BB30EE20004147A /* Debug */,
+				690DABD42BB30EE20004147A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690DABD52BB30EE20004147A /* Build configuration list for PBXNativeTarget "Help People VaccinateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690DABD62BB30EE20004147A /* Debug */,
+				690DABD72BB30EE20004147A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690DABD82BB30EE20004147A /* Build configuration list for PBXNativeTarget "Help People VaccinateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690DABD92BB30EE20004147A /* Debug */,
+				690DABDA2BB30EE20004147A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		690DABB62BB30EE20004147A /* Help_People_Vaccinate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				690DABB72BB30EE20004147A /* Help_People_Vaccinate.xcdatamodel */,
+			);
+			currentVersion = 690DABB72BB30EE20004147A /* Help_People_Vaccinate.xcdatamodel */;
+			path = Help_People_Vaccinate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 690DABA02BB30EE10004147A /* Project object */;
+}
